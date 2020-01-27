@@ -94,7 +94,8 @@ p.lead {
 }
 
 #github-img-link :hover {
-    border: 0.5rem solid #0089fa;
+    border: 0.3rem solid #0089fa;
+    /* border: 0.3rem solid #500000; */
 }
 
 @media (min-width: 992px) {
