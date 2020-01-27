@@ -11,9 +11,13 @@ body {
     color: #868e96;
 }
 @media (min-width: 992px) {
-    body {
+    #body-rest {
         padding-top: 0;
         padding-left: 17rem;
+    }
+    #body-about {
+        padding-top: 0;
+        padding-left: 27rem;
     }
 }
 h1,
@@ -83,6 +87,16 @@ p.lead {
 #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e;
 }
+
+#github-img {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+#github-img-link :hover {
+    border: 0.5rem solid #0089fa;
+}
+
 @media (min-width: 992px) {
     #sideNav {
         text-align: center;
@@ -91,7 +105,7 @@ p.lead {
         left: 0;
         display: flex;
         flex-direction: column;
-        width: 17rem;
+        width: 15rem;
         height: 100vh;
     }
     #sideNav .navbar-brand {
@@ -120,6 +134,9 @@ p.lead {
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
+    }
+    #sideNav .selected {
+        color: #fff;
     }
 }
 section.resume-section {

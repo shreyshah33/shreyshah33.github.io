@@ -13,9 +13,13 @@ body {
 }
 
 @media (min-width: 992px) {
-    body {
+    #body-rest {
         padding-top: 0;
         padding-left: 17rem;
+    }
+    #body-about {
+        padding-top: 0;
+        padding-left: 27rem;
     }
 }
 
@@ -107,7 +111,7 @@ p.lead {
         left: 0;
         display: flex;
         flex-direction: column;
-        width: 17rem;
+        width: 15rem;
         height: 100vh;
     }
     #sideNav .navbar-brand {
@@ -136,6 +140,9 @@ p.lead {
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
+    }
+    #sideNav .selected {
+        color: #fff;
     }
 }
 
