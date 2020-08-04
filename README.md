@@ -1,3 +1,3 @@
-# [shreyshah33.github.io](http://shreyshah33.github.io)\
+# [shreyshah33.github.io](http://shreyshah33.github.io)
 
 My personal website
